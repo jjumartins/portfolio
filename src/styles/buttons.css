@@ -1,0 +1,15 @@
+.btn {
+  font-family: var(--default-font);
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 0.875rem;
+
+  background-color: var(--color-primary);
+
+  border-radius: 12px;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-hover);
+}

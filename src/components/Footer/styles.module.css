@@ -1,0 +1,36 @@
+.footerSection {
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.footer {
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+}
+
+.socialIcons {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .mobileP {
+    text-align: center;
+  }
+}

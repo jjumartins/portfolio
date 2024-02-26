@@ -1,0 +1,19 @@
+.banner {
+  padding-top: 4rem;
+}
+
+.welcomeBox h1,
+.welcomeBox p {
+  margin-bottom: 1rem;
+}
+
+.img {
+  max-width: 50%;
+}
+
+@media (max-width: 750px) {
+  .img {
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,12 @@
+.contact {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}

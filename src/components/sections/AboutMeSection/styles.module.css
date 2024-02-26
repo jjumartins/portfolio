@@ -1,0 +1,10 @@
+.aboutText {
+  width: clamp(25rem, 14.286rem + 28.571vw, 38rem);
+  text-align: justify;
+}
+
+@media (max-width: 750px) {
+  .aboutText {
+    width: 100%;
+  }
+}
